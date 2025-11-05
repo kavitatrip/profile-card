@@ -1,17 +1,15 @@
-import { Routes, Route, BrowserRouter } from "react-router-dom";
-import "./App.css";
-import Navbar from "./components/Navbar";
+import './App.css'
+import ProfileCard from './components/ProfileCard'
 
 function App() {
+
   return (
     <>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Navbar />} />
-        </Routes>
-      </BrowserRouter>
+    <div>
+        <ProfileCard />
+    </div>
     </>
-  );
+  )
 }
 
-export default App;
+export default App
