@@ -1,5 +1,3 @@
-import React from "react";
-
 const DescriptionComponent = () => {
   return (
     <div className="p-5 pb-0 h-30 border-e-amber-300">
@@ -8,7 +6,7 @@ const DescriptionComponent = () => {
         <br className="sm:hidden" />
         JavaScript | React.js
         <br />
-        4+ yrs Experience
+        4.6 yrs experience
       </aside>
     </div>
   );

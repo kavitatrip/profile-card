@@ -1,4 +1,3 @@
-import React from "react";
 import ImageComponent from "./ImageComponent";
 import DescriptionComponent from "./DescriptionComponent";
 import ConnectionTools from "./ConnectionTools";

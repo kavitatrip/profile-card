@@ -1,5 +1,3 @@
-import React from "react";
-
 const ConnectionTools = () => {
   return (
     <div className="flex justify-center pt-2">
