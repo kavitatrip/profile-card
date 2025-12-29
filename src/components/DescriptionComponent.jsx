@@ -1,12 +1,17 @@
 const DescriptionComponent = () => {
   return (
-    <div className="p-5 pb-0 h-30 border-e-amber-300">
-      <aside className="font-mono font-semibold text-center tracking-wide text-lg sm:text-xl leading-tight">
-        <span className="block sm:inline">Frontend Developer </span>
-        <br className="sm:hidden" />
-        JavaScript | React.js
-        <br />
-        4.6 yrs experience
+    <div className="p-2 pb-0">
+      <aside className="font-serif text-center font-semibold">
+        <p className="text-xl">
+          Frontend Developer
+        </p>
+        <p className="text-sm sm:text-base">
+          HTML | CSS | JavaScript | React.js
+        </p>
+        <p className="text-xs sm:text-sm text-gray-500">
+          4.6 years of experience
+        </p>
+
       </aside>
     </div>
   );
